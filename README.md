@@ -44,10 +44,6 @@ Used the sample sales database to explore customers, orders, products and perfor
 
 [View the MySQL Workbench workbook](Data_Technician_Workbook_Week_3%20Workbench%20Use.pdf)
 
-## Quality considerations
-
-Reliable SQL analysis depends on table grain, join cardinality, null values and duplicate records. Aggregated totals should be checked before and after joins because one-to-many relationships can inflate results.
-
 
 ## Author
 
