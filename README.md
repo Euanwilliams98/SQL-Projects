@@ -48,12 +48,6 @@ Used the sample sales database to explore customers, orders, products and perfor
 
 Reliable SQL analysis depends on table grain, join cardinality, null values and duplicate records. Aggregated totals should be checked before and after joins because one-to-many relationships can inflate results.
 
-## Next steps
-
-- Add reusable `.sql` scripts rather than relying only on screenshots
-- Separate quality checks from analytical queries
-- Add comments explaining each query's business purpose
-- Extend the portfolio with `CASE`, CTEs and window functions
 
 ## Author
 
