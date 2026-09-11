@@ -1,65 +1,61 @@
+# SQL Data Analysis | World & Northwind
 
-# 🗄️ SQL Project  
-## 🛒 Retail & Sales Data Analysis  
+![SQL](https://img.shields.io/badge/SQL-MySQL-4479A1?logo=mysql&logoColor=white) ![Status](https://img.shields.io/badge/status-complete-2E8B57)
 
+A relational-database project demonstrating how SQL can retrieve, combine and summarise data from the **World** and **Northwind** databases to answer practical questions about locations, customers, products and sales.
 
----
+## Analytical objectives
 
-## 📌 Overview  
-Data Technicain Bootcamp- Week 3
+- Retrieve relevant records efficiently
+- Combine related tables without losing important observations
+- Summarise performance with counts, totals and averages
+- Rank results to identify leading and underperforming groups
+- Translate query outputs into clear business observations
 
-This project was completed as part of a Data Technician Bootcamp and focuses on building and analysing a relational database using SQL. It covers foundational database concepts, including designing schemas, creating tables, and inserting data within a real-world dataset (**world_db**) and (**Northwind**).
+## SQL skills demonstrated
 
-The project also demonstrates the use of SQL queries to explore and analyse data, applying techniques such as **JOINs**, filtering, and aggregation to extract meaningful insights from the database.
+| Technique | Application |
+|---|---|
+| `SELECT` | Retrieved relevant columns and focused outputs |
+| `WHERE` | Filtered records to analytical criteria |
+| `ORDER BY` | Ranked high and low performers |
+| `GROUP BY` | Produced summaries by category |
+| Aggregate functions | Calculated counts, totals and averages |
+| `INNER JOIN` | Combined matching records across tables |
+| `LEFT JOIN` | Preserved primary records where matches may be absent |
 
-Using structured queries, the project explores sales performance, customer behaviour, and product trends by extracting and analysing data from relational databases.
+## World database
 
----
+Used geographic and demographic tables to practise retrieval, filtering, sorting, aggregation and joins.
 
-## 🚀 Key Skills Demonstrated  
+![World database query](https://github.com/user-attachments/assets/f2ef62ae-f0f1-4f48-a729-bb76f143d8c7)
+![World database output](https://github.com/user-attachments/assets/7c78946f-a2b2-4994-acbc-17debbd078e4)
+![World database analysis](https://github.com/user-attachments/assets/0b831bc9-7bb1-462b-b56d-06750190a55e)
 
-- 🧾 **SELECT Statements**: Retrieved specific data from tables for analysis  
-- 🔍 **WHERE Clauses**: Filtered data to focus on relevant records  
-- 🔢 **ORDER BY**: Sorted results to identify trends and top-performing areas  
-- 📊 **GROUP BY**: Aggregated data to summarise key metrics (e.g., total sales, counts)  
-- 🔗 **JOINs (INNER, LEFT, RIGHT)**: Combined multiple tables to create a complete dataset  
-- 📈 **Data Analysis**: Extracted insights on sales trends, customer activity, and product performance  
+## Northwind database
 
----
+Used the sample sales database to explore customers, orders, products and performance across related tables.
 
-## 📁 Project Overview  
+![Northwind query](https://github.com/user-attachments/assets/98fb4b9c-4041-4e30-baf3-83b058d33674)
+![Northwind output](https://github.com/user-attachments/assets/95ab517c-0aa4-4bf4-833a-b2953d6cea8c)
+![Northwind analysis](https://github.com/user-attachments/assets/bb6e7d5e-f7bc-4d32-90f0-10b774eb6530)
 
-- Sales data exploration using SQL queries  
-- Customer and product analysis  
-- Joining multiple tables to create meaningful datasets  
-- Identifying trends and patterns in retail data  
+## Supporting documentation
 
----
+[View the MySQL Workbench workbook](Data_Technician_Workbook_Week_3%20Workbench%20Use.pdf)
 
-## 🧠 Key Learning Outcomes  
+## Quality considerations
 
-- Write efficient SQL queries to analyse real-world datasets  
-- Combine and manipulate data from multiple tables  
-- Use aggregation functions to summarise data  
-- Extract actionable insights from raw data  
-- Strengthen understanding of relational databases  
-- Apply SQL in a business context  
+Reliable SQL analysis depends on table grain, join cardinality, null values and duplicate records. Aggregated totals should be checked before and after joins because one-to-many relationships can inflate results.
 
----
+## Next steps
 
-## 📸 World Database 
-<img width="654" height="265" alt="Screenshot 2026-03-17 165150" src="https://github.com/user-attachments/assets/f2ef62ae-f0f1-4f48-a729-bb76f143d8c7" />
+- Add reusable `.sql` scripts rather than relying only on screenshots
+- Separate quality checks from analytical queries
+- Add comments explaining each query's business purpose
+- Extend the portfolio with `CASE`, CTEs and window functions
 
-<img width="637" height="410" alt="Screenshot 2026-03-17 165207" src="https://github.com/user-attachments/assets/7c78946f-a2b2-4994-acbc-17debbd078e4" />
+## Author
 
-<img width="660" height="580" alt="Screenshot 2026-03-17 165329" src="https://github.com/user-attachments/assets/0b831bc9-7bb1-462b-b56d-06750190a55e" />
-
-
-## 📸 Northwind Database  
-<img width="652" height="230" alt="Screenshot 2026-03-17 165637" src="https://github.com/user-attachments/assets/98fb4b9c-4041-4e30-baf3-83b058d33674" />
-
-<img width="645" height="241" alt="Screenshot 2026-03-17 165613" src="https://github.com/user-attachments/assets/95ab517c-0aa4-4bf4-833a-b2953d6cea8c" />
-
-<img width="647" height="244" alt="Screenshot 2026-03-17 165601" src="https://github.com/user-attachments/assets/bb6e7d5e-f7bc-4d32-90f0-10b774eb6530" />
-
-
+**Euan Williams** — Junior Business Intelligence & Data Analyst  
+[View my full portfolio](https://github.com/Euanwilliams98)
