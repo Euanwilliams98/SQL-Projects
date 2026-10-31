@@ -1,32 +1,22 @@
-# SQL Data Analysis | World & Northwind
+# SQL Projects: World and Northwind Databases
 
-![SQL](https://img.shields.io/badge/SQL-MySQL-4479A1?logo=mysql&logoColor=white) ![Status](https://img.shields.io/badge/status-complete-2E8B57)
+This project contains SQL exercises using the World and Northwind databases. I used the two datasets to practise retrieving information, joining tables and answering questions about countries, customers, products and orders.
 
-A relational-database project demonstrating how SQL can retrieve, combine and summarise data from the **World** and **Northwind** databases to answer practical questions about locations, customers, products and sales.
+## What I practised
 
-## Analytical objectives
-
-- Retrieve relevant records efficiently
-- Combine related tables without losing important observations
-- Summarise performance with counts, totals and averages
-- Rank results to identify leading and underperforming groups
-- Translate query outputs into clear business observations
-
-## SQL skills demonstrated
-
-| Technique | Application |
+| SQL feature | How I used it |
 |---|---|
-| `SELECT` | Retrieved relevant columns and focused outputs |
-| `WHERE` | Filtered records to analytical criteria |
-| `ORDER BY` | Ranked high and low performers |
-| `GROUP BY` | Produced summaries by category |
-| Aggregate functions | Calculated counts, totals and averages |
-| `INNER JOIN` | Combined matching records across tables |
-| `LEFT JOIN` | Preserved primary records where matches may be absent |
+| \`SELECT\` | Choosing the columns needed for a query |
+| \`WHERE\` | Filtering records |
+| \`ORDER BY\` | Sorting results and finding the highest or lowest values |
+| \`GROUP BY\` | Summarising records by category |
+| Aggregate functions | Calculating counts, totals and averages |
+| \`INNER JOIN\` | Combining records where matching values exist in both tables |
+| \`LEFT JOIN\` | Keeping records from the main table when a match is missing |
 
 ## World database
 
-Used geographic and demographic tables to practise retrieval, filtering, sorting, aggregation and joins.
+I used the World database to explore geographic and demographic information. The queries cover filtering, sorting, grouping and combining related tables.
 
 ![World database query](https://github.com/user-attachments/assets/f2ef62ae-f0f1-4f48-a729-bb76f143d8c7)
 ![World database output](https://github.com/user-attachments/assets/7c78946f-a2b2-4994-acbc-17debbd078e4)
@@ -34,18 +24,22 @@ Used geographic and demographic tables to practise retrieval, filtering, sorting
 
 ## Northwind database
 
-Used the sample sales database to explore customers, orders, products and performance across related tables.
+I also worked with Northwind, a sample sales database. This gave me practice exploring customers, orders and products across several related tables.
 
 ![Northwind query](https://github.com/user-attachments/assets/98fb4b9c-4041-4e30-baf3-83b058d33674)
 ![Northwind output](https://github.com/user-attachments/assets/95ab517c-0aa4-4bf4-833a-b2953d6cea8c)
 ![Northwind analysis](https://github.com/user-attachments/assets/bb6e7d5e-f7bc-4d32-90f0-10b774eb6530)
 
-## Supporting documentation
+## Supporting work
 
 [View the MySQL Workbench workbook](Data_Technician_Workbook_Week_3%20Workbench%20Use.pdf)
 
+## Skills used
+
+MySQL, SQL queries, filtering, sorting, joins, grouping and aggregation.
 
 ## Author
 
-**Euan Williams** — Junior Business Intelligence & Data Analyst  
-[View my full portfolio](https://github.com/Euanwilliams98)
+Euan Williams
+
+[View my other projects](https://github.com/Euanwilliams98)
