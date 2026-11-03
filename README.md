@@ -1,22 +1,22 @@
 # SQL Projects: World and Northwind Databases
 
-This project contains SQL exercises using the World and Northwind databases. I used the two datasets to practise retrieving information, joining tables and answering questions about countries, customers, products and orders.
+I used the World and Northwind sample databases to practise writing SQL queries. The exercises helped me get more familiar with retrieving information, joining tables and answering questions about countries, customers, products and orders.
 
-## What I practised
+## SQL skills practised
 
 | SQL feature | How I used it |
 |---|---|
-| \`SELECT\` | Choosing the columns needed for a query |
-| \`WHERE\` | Filtering records |
-| \`ORDER BY\` | Sorting results and finding the highest or lowest values |
-| \`GROUP BY\` | Summarising records by category |
+| `SELECT` | Choosing the columns I wanted to view |
+| `WHERE` | Filtering records |
+| `ORDER BY` | Sorting results |
+| `GROUP BY` | Grouping records to create summaries |
 | Aggregate functions | Calculating counts, totals and averages |
-| \`INNER JOIN\` | Combining records where matching values exist in both tables |
-| \`LEFT JOIN\` | Keeping records from the main table when a match is missing |
+| `INNER JOIN` | Combining records with a match in both tables |
+| `LEFT JOIN` | Keeping all records from the first table, even when there is no match in the second |
 
 ## World database
 
-I used the World database to explore geographic and demographic information. The queries cover filtering, sorting, grouping and combining related tables.
+I used the World database to explore country and population information. I practised filtering and sorting records, grouping results and joining related tables.
 
 ![World database query](https://github.com/user-attachments/assets/f2ef62ae-f0f1-4f48-a729-bb76f143d8c7)
 ![World database output](https://github.com/user-attachments/assets/7c78946f-a2b2-4994-acbc-17debbd078e4)
@@ -24,7 +24,7 @@ I used the World database to explore geographic and demographic information. The
 
 ## Northwind database
 
-I also worked with Northwind, a sample sales database. This gave me practice exploring customers, orders and products across several related tables.
+I also worked with Northwind, a sample sales database. I used its related tables to practise looking up customers, orders and products.
 
 ![Northwind query](https://github.com/user-attachments/assets/98fb4b9c-4041-4e30-baf3-83b058d33674)
 ![Northwind output](https://github.com/user-attachments/assets/95ab517c-0aa4-4bf4-833a-b2953d6cea8c)
@@ -33,6 +33,10 @@ I also worked with Northwind, a sample sales database. This gave me practice exp
 ## Supporting work
 
 [View the MySQL Workbench workbook](Data_Technician_Workbook_Week_3%20Workbench%20Use.pdf)
+
+## What I learned
+
+These exercises helped me understand how tables are connected and how different SQL statements can be used to find and summarise information. I also got more confident using joins and aggregate functions.
 
 ## Skills used
 
